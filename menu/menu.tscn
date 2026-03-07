@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://48uudgep1wat"]
+
+[node name="Menu" type="Node" unique_id=1701334775]
+
+[node name="UI" type="Control" parent="." unique_id=449981083]
+layout_mode = 3
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 768.0
+offset_bottom = 432.0
+
+[node name="Main" type="Control" parent="UI" unique_id=826205799]
+layout_mode = 1
+anchor_right = 1.0
+anchor_bottom = 1.0
+
+[node name="Play" type="Button" parent="UI/Main" unique_id=692481923]
+layout_mode = 0
+offset_left = 100.0
+offset_top = 390.0
+offset_right = 400.0
+offset_bottom = 440.0
+text = "PLAY"
+alignment = 0
+
+[node name="Quit" type="Button" parent="UI/Main" unique_id=1172794464]
+layout_mode = 0
+offset_left = 100.0
+offset_top = 690.0
+offset_right = 400.0
+offset_bottom = 740.0
+text = "QUIT"
+alignment = 0

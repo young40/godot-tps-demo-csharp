@@ -12,7 +12,7 @@ config_version=5
 
 config/name="CSharp Third Person Shooter (TPS) Demo"
 run/main_scene="uid://c4x8bhdmcrby2"
-config/features=PackedStringArray("4.6", "Forward Plus")
+config/features=PackedStringArray("4.6", "C#", "Forward Plus")
 config/icon="uid://ck0m64y47cdtd"
 
 [dotnet]
