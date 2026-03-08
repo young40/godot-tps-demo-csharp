@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://48uudgep1wat"]
 
 [ext_resource type="FontVariation" uid="uid://cakr08vds3x54" path="res://menu/button_font.tres" id="1_g18jx"]
+[ext_resource type="Script" uid="uid://cw27suqe01x00" path="res://menu/Menu.cs" id="1_juveg"]
 [ext_resource type="StyleBox" uid="uid://cwse3b51bpj8m" path="res://menu/button_hover.tres" id="2_6nwqt"]
 [ext_resource type="StyleBox" uid="uid://34alksp13r84" path="res://menu/button_focus.tres" id="2_svuvw"]
 [ext_resource type="StyleBox" uid="uid://dvxfbhclrng2j" path="res://menu/button_normal.tres" id="4_juveg"]
@@ -27,7 +28,9 @@ Label/constants/shadow_offset_y = 1
 Label/fonts/font = ExtResource("1_g18jx")
 Label/styles/normal = null
 
-[node name="Menu" type="Node" unique_id=1701334775]
+[node name="Menu" type="Node" unique_id=1701334775 node_paths=PackedStringArray("_buttonPlay")]
+script = ExtResource("1_juveg")
+_buttonPlay = NodePath("UI/Main/Play")
 
 [node name="UI" type="Control" parent="." unique_id=449981083]
 layout_mode = 3
