@@ -1,18 +1,52 @@
 [gd_scene format=3 uid="uid://48uudgep1wat"]
 
+[ext_resource type="FontVariation" uid="uid://cakr08vds3x54" path="res://menu/button_font.tres" id="1_g18jx"]
+[ext_resource type="StyleBox" uid="uid://cwse3b51bpj8m" path="res://menu/button_hover.tres" id="2_6nwqt"]
+[ext_resource type="StyleBox" uid="uid://34alksp13r84" path="res://menu/button_focus.tres" id="2_svuvw"]
+[ext_resource type="StyleBox" uid="uid://dvxfbhclrng2j" path="res://menu/button_normal.tres" id="4_juveg"]
+[ext_resource type="StyleBox" uid="uid://nh7gb37wafv5" path="res://menu/button_pressed.tres" id="5_v6yed"]
+
+[sub_resource type="Theme" id="Theme_jc4t8"]
+Button/colors/font_color = Color(1, 1, 1, 1)
+Button/colors/font_disabled_color = Color(0.9019608, 0.9019608, 0.9019608, 0.2)
+Button/colors/font_hover_color = Color(1, 1, 1, 1)
+Button/colors/font_pressed_color = Color(1, 1, 1, 1)
+Button/constants/h_separation = 2
+Button/fonts/font = ExtResource("1_g18jx")
+Button/styles/disabled = null
+Button/styles/focus = ExtResource("2_svuvw")
+Button/styles/hover = ExtResource("2_6nwqt")
+Button/styles/normal = ExtResource("4_juveg")
+Button/styles/pressed = ExtResource("5_v6yed")
+Label/colors/font_color = Color(0, 0, 0, 1)
+Label/colors/font_outline_color = Color(0, 0, 0, 1)
+Label/colors/font_shadow_color = Color(0, 0, 0, 1)
+Label/constants/line_spacing = 3
+Label/constants/shadow_offset_x = 1
+Label/constants/shadow_offset_y = 1
+Label/fonts/font = ExtResource("1_g18jx")
+Label/styles/normal = null
+
 [node name="Menu" type="Node" unique_id=1701334775]
 
 [node name="UI" type="Control" parent="." unique_id=449981083]
 layout_mode = 3
+anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_right = 768.0
 offset_bottom = 432.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = SubResource("Theme_jc4t8")
 
 [node name="Main" type="Control" parent="UI" unique_id=826205799]
 layout_mode = 1
+anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 
 [node name="Play" type="Button" parent="UI/Main" unique_id=692481923]
 layout_mode = 0
@@ -20,6 +54,8 @@ offset_left = 100.0
 offset_top = 390.0
 offset_right = 400.0
 offset_bottom = 440.0
+theme_override_fonts/font = ExtResource("1_g18jx")
+theme_override_font_sizes/font_size = 30
 text = "PLAY"
 alignment = 0
 
@@ -29,5 +65,6 @@ offset_left = 100.0
 offset_top = 690.0
 offset_right = 400.0
 offset_bottom = 740.0
+theme_override_font_sizes/font_size = 30
 text = "QUIT"
 alignment = 0

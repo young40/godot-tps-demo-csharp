@@ -1,0 +1,6 @@
+[gd_resource type="FontVariation" format=3 uid="uid://cakr08vds3x54"]
+
+[ext_resource type="FontFile" uid="uid://c467dgsfsiakp" path="res://menu/font/PT_Sans-Web-Bold.ttf" id="1_pyqh5"]
+
+[resource]
+base_font = ExtResource("1_pyqh5")
