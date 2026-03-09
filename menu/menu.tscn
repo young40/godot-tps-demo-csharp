@@ -4,6 +4,7 @@
 [ext_resource type="Script" uid="uid://cw27suqe01x00" path="res://menu/Menu.cs" id="1_juveg"]
 [ext_resource type="StyleBox" uid="uid://cwse3b51bpj8m" path="res://menu/button_hover.tres" id="2_6nwqt"]
 [ext_resource type="StyleBox" uid="uid://34alksp13r84" path="res://menu/button_focus.tres" id="2_svuvw"]
+[ext_resource type="Texture2D" uid="uid://cxrhk1aecr54b" path="res://menu/tps_demo.png" id="2_v6yed"]
 [ext_resource type="StyleBox" uid="uid://dvxfbhclrng2j" path="res://menu/button_normal.tres" id="4_juveg"]
 [ext_resource type="StyleBox" uid="uid://nh7gb37wafv5" path="res://menu/button_pressed.tres" id="5_v6yed"]
 
@@ -31,6 +32,13 @@ Label/styles/normal = null
 [node name="Menu" type="Node" unique_id=1701334775 node_paths=PackedStringArray("_buttonPlay")]
 script = ExtResource("1_juveg")
 _buttonPlay = NodePath("UI/Main/Play")
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1399666394]
+offset_left = 20.14
+offset_top = 5.035
+offset_right = 1044.14
+offset_bottom = 238.035
+texture = ExtResource("2_v6yed")
 
 [node name="UI" type="Control" parent="." unique_id=449981083]
 layout_mode = 3
