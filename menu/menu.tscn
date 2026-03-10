@@ -7,6 +7,7 @@
 [ext_resource type="Texture2D" uid="uid://cxrhk1aecr54b" path="res://menu/tps_demo.png" id="2_v6yed"]
 [ext_resource type="StyleBox" uid="uid://dvxfbhclrng2j" path="res://menu/button_normal.tres" id="4_juveg"]
 [ext_resource type="StyleBox" uid="uid://nh7gb37wafv5" path="res://menu/button_pressed.tres" id="5_v6yed"]
+[ext_resource type="PackedScene" uid="uid://bmnpmtfkpinsr" path="res://player/model/player.glb" id="8_s4hbh"]
 
 [sub_resource type="Theme" id="Theme_jc4t8"]
 Button/colors/font_color = Color(1, 1, 1, 1)
@@ -32,6 +33,11 @@ Label/styles/normal = null
 [node name="Menu" type="Node" unique_id=1701334775 node_paths=PackedStringArray("_buttonPlay")]
 script = ExtResource("1_juveg")
 _buttonPlay = NodePath("UI/Main/Play")
+
+[node name="PlayerModel" parent="." unique_id=265689474 instance=ExtResource("8_s4hbh")]
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1682003866]
+transform = Transform3D(0.8712138, -0.035952903, 0.4895854, 0, 0.99731445, 0.073238194, -0.49090374, -0.063806124, 0.86887413, 0.07, 1.224, 2.097)
 
 [node name="TextureRect" type="TextureRect" parent="." unique_id=1399666394]
 offset_left = 20.14
