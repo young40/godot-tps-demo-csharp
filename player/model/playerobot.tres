@@ -1,3 +1,25 @@
 [gd_resource type="StandardMaterial3D" format=3 uid="uid://bakyvqnayb0v2"]
 
+[ext_resource type="Texture2D" uid="uid://cof64kkaq4og1" path="res://player/textures/player_robot_albedo.png" id="1_cg7kf"]
+[ext_resource type="Texture2D" uid="uid://cvnxrnuyw1nq7" path="res://player/textures/player_robot_orm.png" id="2_elqs3"]
+[ext_resource type="Texture2D" uid="uid://cofhmhu4tmq6t" path="res://player/textures/player_robot_emissive.png" id="3_jogkh"]
+[ext_resource type="Texture2D" uid="uid://cyg8yb24raadn" path="res://player/textures/player_robot_normal.png" id="4_ewy1s"]
+
 [resource]
+resource_name = "playerobot"
+albedo_texture = ExtResource("1_cg7kf")
+metallic = 1.0
+metallic_texture = ExtResource("2_elqs3")
+metallic_texture_channel = 2
+roughness_texture = ExtResource("2_elqs3")
+roughness_texture_channel = 1
+emission_enabled = true
+emission_texture = ExtResource("3_jogkh")
+normal_enabled = true
+normal_texture = ExtResource("4_ewy1s")
+ao_enabled = true
+ao_texture = ExtResource("2_elqs3")
+texture_filter = 5
+distance_fade_mode = 3
+distance_fade_min_distance = 0.2
+distance_fade_max_distance = 0.8
