@@ -15,4 +15,15 @@ public partial class Menu : Node
 	public override void _Process(double delta)
 	{
 	}
+
+	private void OnPlayPressed()
+	{
+		GD.PrintErr("Play pressed");
+	}
+	
+	private void OnQuitPressed()
+	{
+		GD.PrintErr("Quit pressed");
+		GetTree().Quit();
+	}
 }
