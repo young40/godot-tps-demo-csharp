@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 public partial class Menu : Node
 {
 	[Export] private Button _buttonPlay;
+
+	[Export] private CanvasItem _nodeMain;
+	[Export] private CanvasItem _nodeLoading;
 	
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
@@ -23,6 +26,9 @@ public partial class Menu : Node
 	private void OnPlayPressed()
 	{
 		GD.PrintErr("Play pressed");
+		
+		_nodeMain.Hide();
+		_nodeLoading.Show();
 	}
 	
 	private void OnQuitPressed()
