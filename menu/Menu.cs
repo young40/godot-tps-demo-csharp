@@ -1,5 +1,6 @@
 using Godot;
 using System;
+using System.Threading.Tasks;
 
 public partial class Menu : Node
 {
@@ -9,6 +10,9 @@ public partial class Menu : Node
 	public override void _Ready()
 	{
 		_buttonPlay.GrabFocus();
+		
+		// TODO Test Only
+		GetTree().CreateTimer(1f).Timeout += OnPlayPressed;
 	}
 
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
