@@ -5,6 +5,8 @@ using Array = Godot.Collections.Array;
 
 public partial class Menu : Node
 {
+	[Signal] public delegate void ReplaceMainSceneEventHandler(PackedScene scene);
+	
 	[Export] private Button _buttonPlay;
 
 	[Export] private CanvasItem _nodeMain;
@@ -74,5 +76,8 @@ public partial class Menu : Node
 	private void OnLoadingDoneTimerEnded()
 	{
 		GD.PrintErr("Loading done");
+
+		GD.PrintErr(SignalName.ReplaceMainScene);
+		EmitSignal(SignalName.ReplaceMainScene, ResourceLoader.LoadThreadedGet(LEVE_PATH));
 	}
 }

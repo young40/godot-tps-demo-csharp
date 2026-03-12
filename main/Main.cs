@@ -3,6 +3,8 @@ using System;
 
 public partial class Main : Node
 {
+	[Signal] public delegate void ReplaceMainSceneEventHandler(PackedScene scene);
+	
 	// Called when the node enters the scene tree for the first time.
 	public override void _Ready()
 	{
@@ -34,5 +36,21 @@ public partial class Main : Node
 		Node node = scene.Instantiate();
 
 		AddChild(node);
+
+		if (node.HasSignal(SignalName.ReplaceMainScene))
+		{
+			node.Connect(SignalName.ReplaceMainScene, Callable.From<PackedScene>(ReplaceMainSceneFunc));
+		}
+		
+		// this works TOO.
+		/*if (node.HasSignal("ReplaceMainScene"))
+		{
+			node.Connect("ReplaceMainScene", Callable.From<PackedScene>(ReplaceMainSceneFunc));
+		}*/
+	}
+
+	private void ReplaceMainSceneFunc(PackedScene scene)
+	{
+		ChangeSceneToPacked(scene);	
 	}
 }
