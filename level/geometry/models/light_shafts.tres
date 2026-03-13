@@ -1,6 +1,6 @@
 [gd_resource type="ShaderMaterial" format=3 uid="uid://2derncr82ntu"]
 
-[ext_resource type="Texture2D" uid="uid://mynyixl3f55g" path="res://level/textures/structure/light_shafts.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://bgyv67luneq8i" path="res://level/textures/structure/light_shafts.png" id="1"]
 
 [sub_resource type="Shader" id="1"]
 code = "shader_type spatial;

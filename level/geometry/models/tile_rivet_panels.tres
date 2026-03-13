@@ -1,8 +1,8 @@
 [gd_resource type="StandardMaterial3D" format=3 uid="uid://chkn2bkog3yaw"]
 
-[ext_resource type="Texture2D" uid="uid://cyo2tbb5np35t" path="res://level/textures/structure/tile_rivet_panels_albedo.png" id="1"]
-[ext_resource type="Texture2D" uid="uid://bktpgw34qfqrw" path="res://level/textures/structure/tile_rivet_panels_normal.png" id="2"]
-[ext_resource type="Texture2D" uid="uid://d3kr811gcng7q" path="res://level/textures/structure/tile_rivet_panels_orm.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://mq3lxgxx52n3" path="res://level/textures/structure/tile_rivet_panels_albedo.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://ceaifr8xqm8fa" path="res://level/textures/structure/tile_rivet_panels_normal.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://c50jkaow6txvy" path="res://level/textures/structure/tile_rivet_panels_orm.png" id="3"]
 
 [resource]
 resource_name = "tile_rivet_panels"

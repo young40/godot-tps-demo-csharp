@@ -1,8 +1,8 @@
 [gd_resource type="StandardMaterial3D" format=3 uid="uid://boe38a2lsbsbu"]
 
-[ext_resource type="Texture2D" uid="uid://deqf4exqlmk36" path="res://level/textures/structure/tile_tech_panels_normal.png" id="1"]
-[ext_resource type="Texture2D" uid="uid://b6yu2y8uqg7hv" path="res://level/textures/structure/tile_tech_panels_color_orm.png" id="2"]
-[ext_resource type="Texture2D" uid="uid://cd1xtgs6oxgfo" path="res://level/textures/structure/tile_tech_panels_color_albedo.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://idom7gy25ldf" path="res://level/textures/structure/tile_tech_panels_normal.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://coov48femsmbn" path="res://level/textures/structure/tile_tech_panels_color_orm.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://yjk5q86yjqa1" path="res://level/textures/structure/tile_tech_panels_color_albedo.png" id="3"]
 
 [resource]
 resource_name = "tile_tech_panels_color"

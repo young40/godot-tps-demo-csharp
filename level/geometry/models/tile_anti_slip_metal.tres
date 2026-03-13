@@ -1,8 +1,8 @@
 [gd_resource type="StandardMaterial3D" format=3 uid="uid://powxdyqwd86t"]
 
-[ext_resource type="Texture2D" uid="uid://bd6uvwbriwdu6" path="res://level/textures/structure/tile_anti_slip_albedo.png" id="1"]
-[ext_resource type="Texture2D" uid="uid://bnlskswoobj2l" path="res://level/textures/structure/tile_anti_slip_metal_normal.png" id="2"]
-[ext_resource type="Texture2D" uid="uid://cvhuv2ivvnuqo" path="res://level/textures/structure/tile_anti_slip_metal_orm.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://yjjf4qie3el7" path="res://level/textures/structure/tile_anti_slip_albedo.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://lggeqld7cr7k" path="res://level/textures/structure/tile_anti_slip_metal_normal.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://dtlt27ue4eeuj" path="res://level/textures/structure/tile_anti_slip_metal_orm.png" id="3"]
 
 [resource]
 resource_name = "tile_anti_slip_metal"

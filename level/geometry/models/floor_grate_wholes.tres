@@ -1,8 +1,8 @@
 [gd_resource type="StandardMaterial3D" format=3 uid="uid://bg0tag6xiao3r"]
 
-[ext_resource type="Texture2D" uid="uid://0qcfc1733hss" path="res://level/textures/structure/floor_grate_wholes_normal.png" id="1"]
-[ext_resource type="Texture2D" uid="uid://bkr0eusigowak" path="res://level/textures/structure/floor_grate_wholes_orm.png" id="2"]
-[ext_resource type="Texture2D" uid="uid://cypf8j0tp2vlv" path="res://level/textures/structure/floor_grate_wholes_albedo.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://74s4fg7xpurb" path="res://level/textures/structure/floor_grate_wholes_normal.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://deou66noo8hub" path="res://level/textures/structure/floor_grate_wholes_orm.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bdceni62hf6sa" path="res://level/textures/structure/floor_grate_wholes_albedo.png" id="3"]
 
 [resource]
 resource_name = "floor_grate_wholes"

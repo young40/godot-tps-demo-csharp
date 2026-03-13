@@ -1,9 +1,9 @@
 [gd_resource type="StandardMaterial3D" format=3 uid="uid://b703875llvtsk"]
 
-[ext_resource type="Texture2D" uid="uid://dlgb8fuxysstd" path="res://level/textures/car/scificar_albedo.png" id="1"]
-[ext_resource type="Texture2D" uid="uid://tsfvwxlfyjbj" path="res://level/textures/car/scificar_normal.png" id="2"]
-[ext_resource type="Texture2D" uid="uid://c74qi2ci4wf8i" path="res://level/textures/car/scificar_emissive.png" id="3"]
-[ext_resource type="Texture2D" uid="uid://cgswd68y0qby7" path="res://level/textures/car/scificar_orm.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://2ucstfj7qq5p" path="res://level/textures/car/scificar_albedo.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://r14bgx7imajj" path="res://level/textures/car/scificar_normal.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://dwvsrd0i8sxo7" path="res://level/textures/car/scificar_emissive.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://du75j7ua30yhn" path="res://level/textures/car/scificar_orm.png" id="4"]
 
 [resource]
 resource_name = "scifi_car"

@@ -1,9 +1,9 @@
 [gd_resource type="StandardMaterial3D" format=3 uid="uid://x4yrasc8fraf"]
 
-[ext_resource type="Texture2D" uid="uid://b5imyb7wi7mgs" path="res://level/textures/structure/tile_glass_albedo.png" id="1"]
-[ext_resource type="Texture2D" uid="uid://d2h1dgs37n1bn" path="res://level/textures/structure/tile_glass_normal.png" id="2"]
-[ext_resource type="Texture2D" uid="uid://b8miefev3aipe" path="res://level/textures/structure/tile_glass_orm.png" id="3"]
-[ext_resource type="Texture2D" uid="uid://cs0p6gx085bdj" path="res://level/textures/structure/tile_glass_emission.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://kwud7c1fhcjn" path="res://level/textures/structure/tile_glass_albedo.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://q0pd4ooy6xg2" path="res://level/textures/structure/tile_glass_normal.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bs7wy1l45bhk2" path="res://level/textures/structure/tile_glass_orm.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://dob81aptt7fix" path="res://level/textures/structure/tile_glass_emission.png" id="4"]
 
 [resource]
 resource_name = "tile_glass"

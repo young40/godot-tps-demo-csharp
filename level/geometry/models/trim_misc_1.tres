@@ -1,8 +1,8 @@
 [gd_resource type="StandardMaterial3D" format=3 uid="uid://ck8f6yik1e0kb"]
 
-[ext_resource type="Texture2D" uid="uid://evsrx8dulnfa" path="res://level/textures/structure/trim_misc_1_normal.png" id="1"]
-[ext_resource type="Texture2D" uid="uid://dbsvibmkcsc2" path="res://level/textures/structure/trim_misc_1_albedo.png" id="2"]
-[ext_resource type="Texture2D" uid="uid://cpa3rnfri3u8i" path="res://level/textures/structure/trim_misc_1_orm.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://33hc0cn64gy4" path="res://level/textures/structure/trim_misc_1_normal.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://8fxqbo7tra2b" path="res://level/textures/structure/trim_misc_1_albedo.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bhwhw2pldfpad" path="res://level/textures/structure/trim_misc_1_orm.png" id="3"]
 
 [resource]
 resource_name = "trim_misc_1"

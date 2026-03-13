@@ -1,8 +1,8 @@
 [gd_resource type="StandardMaterial3D" format=3 uid="uid://4li4j8ie6au1"]
 
-[ext_resource type="Texture2D" uid="uid://xdjxolllclr5" path="res://level/textures/structure/tile_painted_gun_metal_normal.png" id="1"]
-[ext_resource type="Texture2D" uid="uid://bukfdn5xwc5jv" path="res://level/textures/structure/tile_painted_gun_metal_albedo.png" id="2"]
-[ext_resource type="Texture2D" uid="uid://duv6ykrcrhitl" path="res://level/textures/structure/tile_painted_gun_metal_orm.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://g1uhlmi6ddwp" path="res://level/textures/structure/tile_painted_gun_metal_normal.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://jdvj0s3frryk" path="res://level/textures/structure/tile_painted_gun_metal_albedo.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://dgdr20xrtiulo" path="res://level/textures/structure/tile_painted_gun_metal_orm.png" id="3"]
 
 [resource]
 resource_name = "tile_painted_gun_metal"

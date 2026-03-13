@@ -1,8 +1,8 @@
 [gd_resource type="StandardMaterial3D" format=3 uid="uid://n855v6f65yte"]
 
-[ext_resource type="Texture2D" uid="uid://iidaw8faveyc" path="res://level/textures/structure/train_texture_normal.png" id="1"]
-[ext_resource type="Texture2D" uid="uid://crfvpcvo3otfs" path="res://level/textures/structure/train_texture_orm.png" id="2"]
-[ext_resource type="Texture2D" uid="uid://blnqy8n41020h" path="res://level/textures/structure/train_texture_albedo.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://d0oq883qillg4" path="res://level/textures/structure/train_texture_normal.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://b1j3l6hv3uyt8" path="res://level/textures/structure/train_texture_orm.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://cy11ytmuw6i50" path="res://level/textures/structure/train_texture_albedo.png" id="3"]
 
 [resource]
 resource_name = "train_texture"

@@ -1,8 +1,8 @@
 [gd_resource type="StandardMaterial3D" format=3 uid="uid://cj2l258iggsj1"]
 
-[ext_resource type="Texture2D" uid="uid://bqsbqw1oc1nie" path="res://level/textures/structure/tile_metal_pillars_albedo.png" id="1"]
-[ext_resource type="Texture2D" uid="uid://coefgoojkhgw7" path="res://level/textures/structure/tile_metal_pillars_normal.png" id="2"]
-[ext_resource type="Texture2D" uid="uid://bsorfbmvpbrch" path="res://level/textures/structure/tile_metal_pillars_orm.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://d4j5lj58jrmj7" path="res://level/textures/structure/tile_metal_pillars_albedo.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://clg01iqsxp4n4" path="res://level/textures/structure/tile_metal_pillars_normal.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://bf1v2nl3wkbix" path="res://level/textures/structure/tile_metal_pillars_orm.png" id="3"]
 
 [resource]
 resource_name = "Tile_metal_pillars"

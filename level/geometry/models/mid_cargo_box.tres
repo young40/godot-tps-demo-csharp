@@ -1,8 +1,8 @@
 [gd_resource type="StandardMaterial3D" format=3 uid="uid://btbrh0piulu1r"]
 
-[ext_resource type="Texture2D" uid="uid://b0m02dsx5c8di" path="res://level/textures/props/mid_cargo_box_albedo.png" id="1"]
-[ext_resource type="Texture2D" uid="uid://ocdw38ooyy7f" path="res://level/textures/props/mid_cargo_box_orm.png" id="2"]
-[ext_resource type="Texture2D" uid="uid://ctgmrjj6re5t7" path="res://level/textures/props/mid_cargo_box_normal.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://8de5wiioe2s3" path="res://level/textures/props/mid_cargo_box_albedo.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://y6pqkjde5k87" path="res://level/textures/props/mid_cargo_box_orm.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://df504cghg4hv6" path="res://level/textures/props/mid_cargo_box_normal.png" id="3"]
 
 [resource]
 resource_name = "mid_cargo_box"

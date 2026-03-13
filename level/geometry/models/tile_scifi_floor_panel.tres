@@ -1,8 +1,8 @@
 [gd_resource type="StandardMaterial3D" format=3 uid="uid://dns1851xm3coh"]
 
-[ext_resource type="Texture2D" uid="uid://d2adi7d38ilq5" path="res://level/textures/structure/tile_scifi_floor_panel_albedo.png" id="1"]
-[ext_resource type="Texture2D" uid="uid://bhc8hnk3vehij" path="res://level/textures/structure/tile_scifi_floor_panel_normal.png" id="2"]
-[ext_resource type="Texture2D" uid="uid://cpy0lbh6h2tx6" path="res://level/textures/structure/tile_scifi_floor_panel_orm.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://clpqiwp4jnc4r" path="res://level/textures/structure/tile_scifi_floor_panel_albedo.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://dhoqcpsk3agvb" path="res://level/textures/structure/tile_scifi_floor_panel_normal.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://dhfqqxyb2i1ig" path="res://level/textures/structure/tile_scifi_floor_panel_orm.png" id="3"]
 
 [resource]
 resource_name = "tile_scifi_floor_panel"

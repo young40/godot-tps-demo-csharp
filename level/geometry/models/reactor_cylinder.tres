@@ -1,9 +1,9 @@
 [gd_resource type="StandardMaterial3D" format=3 uid="uid://ct6gqk0powrr4"]
 
-[ext_resource type="Texture2D" uid="uid://s1qpxe4ao8l" path="res://level/textures/props/reactor_cylinder_emissive.png" id="1"]
-[ext_resource type="Texture2D" uid="uid://cp1sttp6pfsim" path="res://level/textures/props/reactor_cylinder_normal.png" id="2"]
-[ext_resource type="Texture2D" uid="uid://cflo3wp81kvv4" path="res://level/textures/props/reactor_cylinder_albedo.png" id="3"]
-[ext_resource type="Texture2D" uid="uid://dnds7xlobxq44" path="res://level/textures/props/reactor_cylinder_orm.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://bhfl5ahsjlm45" path="res://level/textures/props/reactor_cylinder_emissive.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://cta7h8d6a58fr" path="res://level/textures/props/reactor_cylinder_normal.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://mlnawl8dg5f0" path="res://level/textures/props/reactor_cylinder_albedo.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://cxw84s8lipdm6" path="res://level/textures/props/reactor_cylinder_orm.png" id="4"]
 
 [resource]
 resource_name = "reactor_cylinder"

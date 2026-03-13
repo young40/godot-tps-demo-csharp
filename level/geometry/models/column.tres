@@ -1,8 +1,8 @@
 [gd_resource type="StandardMaterial3D" format=3 uid="uid://dr0wdfsg5ra6s"]
 
-[ext_resource type="Texture2D" uid="uid://o6y1uu8sgf2g" path="res://level/textures/structure/column_orm.png" id="1"]
-[ext_resource type="Texture2D" uid="uid://24qvfgi838qc" path="res://level/textures/structure/column_normal.png" id="2"]
-[ext_resource type="Texture2D" uid="uid://cytco2ywnxs4d" path="res://level/textures/structure/column_albedo.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://bvmqglb1krpjy" path="res://level/textures/structure/column_orm.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://c1mwn6mwo6vpo" path="res://level/textures/structure/column_normal.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://c7720ebuo3pd6" path="res://level/textures/structure/column_albedo.png" id="3"]
 
 [resource]
 resource_name = "column"

@@ -1,9 +1,9 @@
 [gd_resource type="StandardMaterial3D" format=3 uid="uid://7ahmb3jrajnt"]
 
-[ext_resource type="Texture2D" uid="uid://cis73xaqdsdlu" path="res://level/textures/props/door_reactor_emission.png" id="1"]
-[ext_resource type="Texture2D" uid="uid://bo7k4txftqby1" path="res://level/textures/props/door_reactor_albedo.png" id="2"]
-[ext_resource type="Texture2D" uid="uid://b1h0lohi1e6t3" path="res://level/textures/props/door_reactor_normal.png" id="3"]
-[ext_resource type="Texture2D" uid="uid://bi47hceu70j2g" path="res://level/textures/props/door_reactor_orm.png" id="4"]
+[ext_resource type="Texture2D" uid="uid://c66ejj5uxyrws" path="res://level/textures/props/door_reactor_emission.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://dn800vrfaq1gn" path="res://level/textures/props/door_reactor_albedo.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://coc81ktja4vxm" path="res://level/textures/props/door_reactor_normal.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://b3hwwlmx0ai5t" path="res://level/textures/props/door_reactor_orm.png" id="4"]
 
 [resource]
 resource_name = "door_reactor"

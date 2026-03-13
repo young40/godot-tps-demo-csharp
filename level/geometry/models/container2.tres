@@ -1,8 +1,8 @@
 [gd_resource type="StandardMaterial3D" format=3 uid="uid://hcao661fvytd"]
 
-[ext_resource type="Texture2D" uid="uid://cdxqpvqe8ocfw" path="res://level/textures/props/container2_orm.png" id="1"]
-[ext_resource type="Texture2D" uid="uid://c1rl8jqrw1er8" path="res://level/textures/props/container2_normal.png" id="2"]
-[ext_resource type="Texture2D" uid="uid://bgokbxnx081fo" path="res://level/textures/props/container2_albedo.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://c2rf2mmedorqw" path="res://level/textures/props/container2_orm.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://biwanay5xwjjr" path="res://level/textures/props/container2_normal.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://brr26dibbiwa1" path="res://level/textures/props/container2_albedo.png" id="3"]
 
 [resource]
 resource_name = "container2"

@@ -1,8 +1,8 @@
 [gd_resource type="StandardMaterial3D" format=3 uid="uid://4o80ywqgw2sj"]
 
-[ext_resource type="Texture2D" uid="uid://l2anliueqj5b" path="res://level/textures/structure/tile_default_metal_normal.png" id="1"]
-[ext_resource type="Texture2D" uid="uid://yyss75p88ker" path="res://level/textures/structure/tile_default_metal_albedo.png" id="2"]
-[ext_resource type="Texture2D" uid="uid://c760y3qe8kdu8" path="res://level/textures/structure/tile_default_metal_orm.png" id="3"]
+[ext_resource type="Texture2D" uid="uid://dl1h6x0cebfbo" path="res://level/textures/structure/tile_default_metal_normal.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://cduu34oev6xg5" path="res://level/textures/structure/tile_default_metal_albedo.png" id="2"]
+[ext_resource type="Texture2D" uid="uid://d4brlpfas11bb" path="res://level/textures/structure/tile_default_metal_orm.png" id="3"]
 
 [resource]
 resource_name = "tile_default_metal"
