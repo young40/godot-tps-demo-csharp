@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://dql3admcjhuuv"]
 
-[ext_resource type="PackedScene" uid="uid://btvcv1h0w0jn6" path="res://level/geometry/models/core.glb" id="1_vkbyq"]
+[ext_resource type="PackedScene" uid="uid://xtoishfgyru8" path="res://level/geometry/scenes/core.tscn" id="1_vkbyq"]
 [ext_resource type="PackedScene" uid="uid://q3uq8q78r6qb" path="res://level/geometry/models/structure.glb" id="2_ktfr2"]
 [ext_resource type="PackedScene" uid="uid://btloexexbbbeb" path="res://level/geometry/models/props.glb" id="3_44x8d"]
 [ext_resource type="PackedScene" uid="uid://caju01486boud" path="res://level/geometry/models/lights.glb" id="4_ivpvi"]
