@@ -1,3 +1,16 @@
 [gd_scene format=3 uid="uid://dql3admcjhuuv"]
 
+[ext_resource type="PackedScene" uid="uid://btvcv1h0w0jn6" path="res://level/geometry/models/core.glb" id="1_vkbyq"]
+[ext_resource type="PackedScene" uid="uid://q3uq8q78r6qb" path="res://level/geometry/models/structure.glb" id="2_ktfr2"]
+[ext_resource type="PackedScene" uid="uid://btloexexbbbeb" path="res://level/geometry/models/props.glb" id="3_44x8d"]
+[ext_resource type="PackedScene" uid="uid://caju01486boud" path="res://level/geometry/models/lights.glb" id="4_ivpvi"]
+
 [node name="Level" type="Node3D" unique_id=1160274230]
+
+[node name="Core" parent="." unique_id=1612856749 instance=ExtResource("1_vkbyq")]
+
+[node name="Structure" parent="." unique_id=2012561594 instance=ExtResource("2_ktfr2")]
+
+[node name="Props" parent="." unique_id=48105709 instance=ExtResource("3_44x8d")]
+
+[node name="Lights" parent="." unique_id=1449453255 instance=ExtResource("4_ivpvi")]
