@@ -1,3 +1,7 @@
 [gd_scene format=3 uid="uid://dsxhqfb86xsgt"]
 
-[node name="Core" type="Node3D" unique_id=1338747026]
+[ext_resource type="PackedScene" uid="uid://btloexexbbbeb" path="res://level/geometry/models/props.glb" id="1_kq25y"]
+
+[node name="Props" type="Node3D" unique_id=1338747026]
+
+[node name="PropsModel" parent="." unique_id=1303052681 instance=ExtResource("1_kq25y")]
