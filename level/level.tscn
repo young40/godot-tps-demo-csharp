@@ -1,19 +1,19 @@
 [gd_scene format=3 uid="uid://dql3admcjhuuv"]
 
 [ext_resource type="PackedScene" uid="uid://xtoishfgyru8" path="res://level/geometry/scenes/core.tscn" id="1_vkbyq"]
-[ext_resource type="PackedScene" uid="uid://q3uq8q78r6qb" path="res://level/geometry/models/structure.glb" id="2_ktfr2"]
-[ext_resource type="PackedScene" uid="uid://btloexexbbbeb" path="res://level/geometry/models/props.glb" id="3_44x8d"]
-[ext_resource type="PackedScene" uid="uid://caju01486boud" path="res://level/geometry/models/lights.glb" id="4_ivpvi"]
+[ext_resource type="PackedScene" uid="uid://bt0rkpjcg74dc" path="res://level/geometry/scenes/structure.tscn" id="2_44x8d"]
+[ext_resource type="PackedScene" uid="uid://dsxhqfb86xsgt" path="res://level/geometry/scenes/props.tscn" id="4_0v1st"]
+[ext_resource type="PackedScene" uid="uid://bs86kmhpn3jaj" path="res://level/geometry/scenes/lights.tscn" id="6_6gtgk"]
 
 [node name="Level" type="Node3D" unique_id=1160274230]
 
 [node name="Core" parent="." unique_id=1612856749 instance=ExtResource("1_vkbyq")]
 
-[node name="Structure" parent="." unique_id=2012561594 instance=ExtResource("2_ktfr2")]
+[node name="Structure" parent="." unique_id=1338747026 instance=ExtResource("2_44x8d")]
 
-[node name="Props" parent="." unique_id=48105709 instance=ExtResource("3_44x8d")]
+[node name="Props" parent="." unique_id=1097771664 instance=ExtResource("4_0v1st")]
 
-[node name="Lights" parent="." unique_id=1449453255 instance=ExtResource("4_ivpvi")]
+[node name="Lights" parent="." unique_id=1844185692 instance=ExtResource("6_6gtgk")]
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=1426199886]
 transform = Transform3D(0.6717206, 0, -0.7408046, 0, 1, 0, 0.7408046, 0, 0.6717206, -4.053, -1.129, 4)
