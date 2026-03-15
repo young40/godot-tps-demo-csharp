@@ -14,3 +14,7 @@
 [node name="Props" parent="." unique_id=48105709 instance=ExtResource("3_44x8d")]
 
 [node name="Lights" parent="." unique_id=1449453255 instance=ExtResource("4_ivpvi")]
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=1426199886]
+transform = Transform3D(0.6717206, 0, -0.7408046, 0, 1, 0, 0.7408046, 0, 0.6717206, -4.053, -1.129, 4)
+current = true
